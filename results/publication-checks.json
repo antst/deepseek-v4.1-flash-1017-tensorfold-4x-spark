@@ -1,0 +1,43 @@
+{
+  "utc": "2026-11-08T13:42:34.181378+00:00",
+  "checks": {
+    "public_fetch_reconstruction": {
+      "complete": true,
+      "commit": "59402086381a42c74d53053443224eec2790b4c5",
+      "files": 2627,
+      "source_manifest_sha256": "a8a82c45ccdd63ea88de6518383850f19f521f506d0ede9ba4b3a4ba2bf0699a",
+      "overlay_sha256": "fa527351f916ed9386f0a6c8f780c8a7eede432f8cffdbee5b3ed3169f207af5",
+      "compiled": false,
+      "gpu_initialized": false
+    },
+    "offline_reconstruction": true,
+    "recipe_json_python_links_pins": true,
+    "benchmark_manifest_and_dry_run": {
+      "waves": 56,
+      "requests": 258,
+      "measured_requests": 204,
+      "maximum_output_tokens": 65568
+    },
+    "timing_reduction": {
+      "optimized_percent": 2.3221666205771596,
+      "gu_off_percent": 1.359229874147272,
+      "cells": 12
+    },
+    "launch_render_four_ranks_and_duplicate_core_rejection": true,
+    "build_shell_syntax": true,
+    "private_path_and_credential_pattern_scan": true,
+    "compressed_patch_reconstruction": {
+      "complete": true,
+      "commit": "59402086381a42c74d53053443224eec2790b4c5",
+      "files": 2627,
+      "source_manifest_sha256": "a8a82c45ccdd63ea88de6518383850f19f521f506d0ede9ba4b3a4ba2bf0699a",
+      "overlay_sha256": "428963fd3fea3e89744d4ae81f2d20aef1901b9e6ae1ca347fc5fbd0f258993e",
+      "compiled": false,
+      "gpu_initialized": false
+    }
+  },
+  "limits": [
+    "No repeated ARM compilation, inference or GPU/NIC/fabric operation during publication.",
+    "The qualification and activation outcomes are from the retained deployed build."
+  ]
+}

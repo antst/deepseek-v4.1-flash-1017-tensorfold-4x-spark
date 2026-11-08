@@ -1,0 +1,79 @@
+{
+  "model_name": "DeepSeek-V4.1-Flash-TP4",
+  "head_image": "REPLACE_WITH_COMPATIBLE_ARM64_RUNTIME_IMAGE",
+  "follower_image": "REPLACE_WITH_COMPATIBLE_ARM64_RUNTIME_IMAGE",
+  "rank0_address": "spark-0.example",
+  "bootstrap_port": 29760,
+  "api_port": 8888,
+  "rdma_devices": "rocep1s0f0,roceP2p1s0f0",
+  "hca_devices": [
+    "/dev/infiniband/uverbs0",
+    "/dev/infiniband/uverbs1",
+    "/dev/infiniband/uverbs2",
+    "/dev/infiniband/uverbs3",
+    "/dev/infiniband/rdma_cm"
+  ],
+  "cache_root": "/srv/cache/ds1017-native-columns-v1",
+  "artifact_paths": {
+    "model": "/srv/models/exl3/served-view",
+    "rank_inputs": "/srv/models/exl3",
+    "kit": "/srv/models/exl3/kit",
+    "engram": "/srv/models/original-1017",
+    "nccl": "/srv/lib/libnccl.so.2",
+    "head_binary": "/shared/ds1017/build/build-out/native/bin/tensorfold-native",
+    "follower_binary": "/shared/ds1017/build/build-out/bin/tf-dsv41-lanes",
+    "local_head_kernel": "/shared/ds1017/build/local_head_pack.fatbin",
+    "prefetch_kernel": "/shared/ds1017/build/exl3_dn_prefetch.fatbin",
+    "rdma_kernel": "/shared/ds1017/rdma_gather.fatbin"
+  },
+  "nodes": [
+    {
+      "rank": 0,
+      "ssh_host": "admin@spark-0.example",
+      "poster_cpus": [
+        5,
+        6,
+        7,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "rank": 1,
+      "ssh_host": "admin@spark-1.example",
+      "poster_cpus": [
+        5,
+        6,
+        7,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "rank": 2,
+      "ssh_host": "admin@spark-2.example",
+      "poster_cpus": [
+        5,
+        6,
+        7,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "rank": 3,
+      "ssh_host": "admin@spark-3.example",
+      "poster_cpus": [
+        5,
+        6,
+        7,
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

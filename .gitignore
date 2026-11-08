@@ -1,0 +1,12 @@
+local/
+state/
+__pycache__/
+*.pyc
+.DS_Store
+*.fatbin
+*.cubin
+*.safetensors
+*.so
+*.so.*
+*.tar
+*.tar.gz

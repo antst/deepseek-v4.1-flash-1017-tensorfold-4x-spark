@@ -1,0 +1,13 @@
+DeepSeek-V4.1-Flash-1017 / TensorFold / four DGX Sparks recipe
+Copyright 2026 Anton Starikov and recipe contributors
+Apache License, Version 2.0
+
+This is a modified build-input overlay and serving recipe derived from the
+TensorFold and BertholomusAI projects, incorporating credited MiaAI-Lab patches.
+All overlay-modified paths are listed in engine/changed-files.json. Changes
+include inherited engine upgrades and local serving optimizations; that list
+does not assign authorship. The exact reconstructed source is hash-bound.
+
+Original NOTICE, attribution, license and third-party notices are retained in
+engine/ and in the reconstructed engine. They apply to their respective code.
+Weights, compiled kernels, runtime images and NCCL are separate inputs.

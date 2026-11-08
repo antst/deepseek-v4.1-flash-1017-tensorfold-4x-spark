@@ -1,0 +1,13 @@
+{
+  "qualified_tests": {
+    "passed": 1975,
+    "total": 1985,
+    "skipped": 10
+  },
+  "asset_identity": {
+    "head_original_fatbins": 50,
+    "follower_original_fatbins": 8,
+    "byte_exact_to_original": true
+  },
+  "publication_checks": "Source-equivalence and portable recipe checks, no repeated ARM/GPU run."
+}

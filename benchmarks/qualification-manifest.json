@@ -1,0 +1,29 @@
+{
+  "scope": "Full12cell samebinary nativeTF GUon/off confirmation, actualoriginalA/B. Original full corpus plus already frozen extra3waves/codeC8 from focused corpus.",
+  "files": {
+    "workload.py": {
+      "bytes": 5606,
+      "sha256": "ac74daeb85d67021905c9e35e7805ca091260fa6d76224452da8f14641e79888"
+    },
+    "requests.json": {
+      "bytes": 259427,
+      "sha256": "907cc125ed2988868cfc0d7e9e88c589624c09f7e40e0ebbcd1b632b2da09a45"
+    },
+    "http_reference.py": {
+      "bytes": 5811,
+      "sha256": "3ac03672b8c59b2e1b47ac7bd826b5333c97b79195e9bad889dca38a2a4d0381"
+    },
+    "compare.py": {
+      "bytes": 3535,
+      "sha256": "49e9e1179c1392aa1cc8ea8e4c5521db21bfd5e49a77575d7f8b25c090a65f69"
+    }
+  },
+  "bounds": {
+    "waves": 56,
+    "requests": 258,
+    "maximum_output_tokens": 65568,
+    "new_wave_admission_seconds": 600,
+    "client_process_seconds": 710
+  },
+  "primary": "ActualwaveTPS and HTTPfirst-contentTTFT all12cells, N6codeC8/N3others. Allwaves retained. ExactnativeSHA/text/usage/cache/functional and cleanclose mandatory."
+}

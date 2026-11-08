@@ -1,0 +1,182 @@
+[
+  {
+    "name": "0001-dsv41-native-fp8-mxfp4-and-ring-tp4.patch",
+    "sha256": "fd9a7281880840fc1104960765bb7a8cf388f7220c7e3caf5c22e506a4465059"
+  },
+  {
+    "name": "0002-server-tool-arguments-and-video-input.patch",
+    "sha256": "ac01a8a7a4b483cd117cda05fefd8f95878bdae7809eb812ff7f53c1e928b111"
+  },
+  {
+    "name": "0003-engram-packed-rows.patch",
+    "sha256": "976e5ceda79cba4ccdc46d2ad44cb3db23a971be55c3052fe0180d3e62fa5cc7"
+  },
+  {
+    "name": "0004-aot-general-variant-fallback.patch",
+    "sha256": "83c988a604fdb7a5d4c4da865ae510ac7613984756effa80f121c928a9ee769e"
+  },
+  {
+    "name": "0005-replay-cut-aligned-positions.patch",
+    "sha256": "b8df54e6fed28793cbb2acefe87df4ee4bc42c351dc3c13f48aeba4323723239"
+  },
+  {
+    "name": "0006-reasoning-effort-max.patch",
+    "sha256": "fe381e0328981b96da50e11e4961b88b192f9dbcc865809b6ea6ba2d86b4960a"
+  },
+  {
+    "name": "0007-index-row-blocks-aligned.patch",
+    "sha256": "bb2c780f0eee160b5a6393e29452294fc45081a9bad563a3ef8f50a0bd9a237a"
+  },
+  {
+    "name": "0008-pair-sum-gather.patch",
+    "sha256": "c66d840b08c20dffe55ce746805d01202b18c3cd4c10e926a585a792a64b441a"
+  },
+  {
+    "name": "0009-wp0-engram-worker-wait-timing.patch",
+    "sha256": "e218565d7c815f486aed4af4647717c8a7cba0a0e59aab67217255ee2244cf63"
+  },
+  {
+    "name": "0010-pair-sum-hardening.patch",
+    "sha256": "fd808ede3b82fd35b0098196b16401b540eee9a1c258515a572b311f8e415e23"
+  },
+  {
+    "name": "0011-wp1-multi-layer-gather-dump.patch",
+    "sha256": "f59675cd1cfaa8c5b37d8a0382318c60cae0a9b48fe5f07ac0bfd4238b1e1d21"
+  },
+  {
+    "name": "0012-wp0-hc-replay-tool.patch",
+    "sha256": "bcf3f9684733a8c78cfe4fb7bba2aa84bdce2dfc71a76d6bbb481e4e70e1d99e"
+  },
+  {
+    "name": "0013-wp2-projection-tile-fold.patch",
+    "sha256": "b2662aebc83da85efe67201e9cce3a88460a01322f0b06d62b63a8a01f1eccef"
+  },
+  {
+    "name": "0014-wp6-indexer-row-batch.patch",
+    "sha256": "0b78c9320d4d1e5a6979dfca168fa34cb5990d1a2168a21611ba7a782f8430d3"
+  },
+  {
+    "name": "0015-wp4-quarter-hc.patch",
+    "sha256": "5813e393e8c407ae7699b453e5b6aabf47900fc2757c48cebdfd46ecea83da4d"
+  },
+  {
+    "name": "0016-wp5-owner-row-transport.patch",
+    "sha256": "1aff8d678db9f82a1f51df3d9b950d02ea78cd1e216b95c33f073d509b941109"
+  },
+  {
+    "name": "0017-g01-drafter-width-slabs.patch",
+    "sha256": "232a6700614d7352576743ec5fdde21d1ec608839794fa6a78f756abc2f6771c"
+  },
+  {
+    "name": "0018-g02-pdl-controls.patch",
+    "sha256": "bcedd8f4d48b5ed2c63d340849a2f792598b0c3530aa6b11efd91d8dff22eb06"
+  },
+  {
+    "name": "0019-g03-graph-capture-agreement.patch",
+    "sha256": "c4d9fecfae0182f2c450bda2c8f5404efc6b530ef344b303a8596ba5e95e0e36"
+  },
+  {
+    "name": "0020-a2-prepass-choice.patch",
+    "sha256": "30134b98d6ddfff4e341d6d987536d6b46a7386949d5ab27dea0f816a4daeb92"
+  },
+  {
+    "name": "0021-b-sampling-candidates.patch",
+    "sha256": "f29eb6bb96d9ac9465fdafe6af87e77e02eba030c71b68c68075e80864db1de4"
+  },
+  {
+    "name": "0022-c-expert-early-exit.patch",
+    "sha256": "d2ff778b9b6cd36d0eb52ea6bef62484aa5035d47f51d96bf7683d6160012df2"
+  },
+  {
+    "name": "0023-d-prefill-yield.patch",
+    "sha256": "67f0620aa37de8615985c3b1e01234dc2eebc55784a47afb4e22ddbd0cf541de"
+  },
+  {
+    "name": "0024-a3-draft-row-ms.patch",
+    "sha256": "c29f45090c600c260b4f6651be33b4fc83cb275cc9b7862631abca97c6aef06c"
+  },
+  {
+    "name": "0025-wp6b-indexer-row-shard.patch",
+    "sha256": "126b00a869bc0fe036234da714592ff47990b0ab0803f18048789af2b1af5c4a"
+  },
+  {
+    "name": "0026-rdma-active-mtu.patch",
+    "sha256": "cdd4283c9559dcdec8771a49ced873833fccf6515928a725f99eb68be202bd65"
+  },
+  {
+    "name": "0027-image-keyed-prompt-cache.patch",
+    "sha256": "e7f05cd6aad2fceeff79db283d0c3f430617dd8baa1e6f902b3c9cbc31e60cfa"
+  },
+  {
+    "name": "0028-native-sse-keepalive.patch",
+    "sha256": "355cc73cfb7bfc82df028f562d30f4532c8954109dc2b38f4ccd64b78b8494de"
+  },
+  {
+    "name": "0029-golden-stdout-drain.patch",
+    "sha256": "2f84e5965401afa7fee37e425c4602a87fed659f5771390a10c2ad11335a0ded"
+  },
+  {
+    "name": "0030-skip-restored-image-rows.patch",
+    "sha256": "5cdbb2a68186043919318ab66c29ff18a85519af40aaeebfb26ad7abe7370866"
+  },
+  {
+    "name": "0031-bounded-prefill-admission.patch",
+    "sha256": "bb4253fd9de18277eb3b8d95e721c81584ae6af112bd8f88f6c7727d48025b39"
+  },
+  {
+    "name": "0032-prefill-admission-switch.patch",
+    "sha256": "0560a9456d03dc44a749b3650f1c0aac056e2784fcd9502232973f7df0a45c37"
+  },
+  {
+    "name": "0033-metrics-cached-prompt-tokens.patch",
+    "sha256": "3818035e0009c6b1da7f63daeca0d3bc4c3046b6f951dc54053b7ab09dd6a039"
+  },
+  {
+    "name": "0034-idle-rdma-futex.patch",
+    "sha256": "f06817b8a6b76bf18de185c0e41b63d52d8e574a3419252dc66cc3cd8bba6db3"
+  },
+  {
+    "name": "0035-rendezvous-ports-early.patch",
+    "sha256": "b838a58e2d8476290ef4090c2a746024e65d1e8daf9af6e7e163a7b8e54264df"
+  },
+  {
+    "name": "0036-structured-output.patch",
+    "sha256": "2d524e0d06174b1a57ad615cefa34a548142bf3adb537074dbcb2f88c44238e9"
+  },
+  {
+    "name": "0037-nvfp4-checkpoint.patch",
+    "sha256": "93722c6d86181d358b9823bbd6a3fe84ed7185f9c2bd7a44affaad4d8c7f617b"
+  },
+  {
+    "name": "0039-grammar-setup-result.patch",
+    "sha256": "092556755055427b52d36090547bf5e220efcd4289292bbe16b477fcd552e246"
+  },
+  {
+    "name": "0040-graph-cache-ownership.patch",
+    "sha256": "ea33c8c6237f5a3cbca8aa976d3b706bb72a45b2914dfcdc747789fbdae5af10"
+  },
+  {
+    "name": "0041-grammar-tests-current-api.patch",
+    "sha256": "9d2ce39ea25d40bc4a6940004b7ab8752c34c10cbc9fa40082cfef1770e8e840"
+  },
+  {
+    "name": "0042-json-answer-channel.patch",
+    "sha256": "9903558d4bafb8ab90bcec69996071586f9f18d0a17df40b286c8e41a5348a77"
+  },
+  {
+    "name": "0043-orphan-dsml-closer-diagnostic.patch",
+    "sha256": "adc81ae0ef2f567ff6baeb81fdd7406fe83feb82c12de9123987919d30d660d7"
+  },
+  {
+    "name": "0046-load-prefetch.patch",
+    "sha256": "092dcf40cca017600519b63245fd8ef47b86b804f067225c403b29b4322e6e77"
+  },
+  {
+    "name": "0052-dsml-value-holds-closer.patch",
+    "sha256": "9c7f7be734b75a37dcf86c2ae3079915d22f12058c71dfc9c19fe3f166baf33b"
+  },
+  {
+    "name": "0053-dsml-opener-short-payload.patch",
+    "sha256": "9ddeb1162e1d813d0c92124b60f591af3a5bf55a9bed986b247ee152eb7de156"
+  }
+]
